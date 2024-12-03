@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#wrapper{
+    height:100vh;
+    overflow-x:hidden;
+    perspective:20px;
+    
+}
+
+.container{
+    position:relative;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transform-style:preserve-3d;
+    z-index:-1;
+}
+
+.background{
+    transform:translateZ(-50px) scale(4);
+
+}
+.foreground{
+    transform:translateZ(-20px) scale(2);   
+}
+
+.background,.foreground{
+    position:absolute;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    z-index:-1;
+
+}
+
+h1{
+    position:absolute;
+    top:5rem;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 10rem;
+    letter-spacing:4px;
+    color:white;
+    text-shadow:0 0 10px rgba(0,0,0,0,3);
+}
+
+section{
+    background-color:rgb(45,45,45);
+    color:white;
+    padding:5rem 0;
+
+}
+.secHeading{
+    font-size:5rem;
+    padding:0 10rem;
+}
+.text{
+    font-size:1rem;
+    padding:0 10rem;
+    margin:5rem 0;
+}
+.bg{
+    position:relative;
+    width:100%;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:500px;
+}
+.desc{
+    position:absolute;
+    background-color: white;
+    color:black;
+    padding:0.5rem 2.5rem;
+    top:50%;
+    left:45%;
+
+}
+.bg1{
+    background-image:url( ./Images/sport-1.jpg) ;
+  
+}
+.bg2{
+    background-image:url(./Images/sport-2.jpg);
+}
+.bg3{
+    background-image:url(./Images/sport-3.jpg);
+}
+
+@media(max-width:280px){
+    h1{
+        font-size: 0.5rem;
+        letter-spacing:0px;
+        top: 10rem;
+    }
+
+    .secHeading{
+        font-size:1rem;
+        padding:0 0.5rem;
+    }
+
+    .text{
+        font-size:0.5em;
+        padding:0 1.5rem;
+        margin: 1rem 0;
+    }
+
+    section{
+        padding:0.5rem 0;
+    }
+
+    .bg{
+        height:100px;
+        background-size:280px 608px;
+    }
+
+    .desc{
+        font-size:7px;   
+        padding:0.5rem 2.5rem 1rem 0.9rem;
+        height:1rem;
+        width:1rem;
+    }
+
+}
+
+@media (min-width:280px) and (max-width:393px){
+
+    h1{
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+        top: 9rem;
+     }
+
+    .secHeading{
+        font-size:1rem;
+        padding:0 1rem;
+    }
+
+    .text{
+        font-size:0.7em;
+        padding:0 3rem;
+        margin:1.5rem 0;
+    }
+
+    section{
+        padding:1rem 0;
+    }
+
+    .bg{       
+        background-size:393px 608px;
+        height:150px;
+    }
+
+    .desc{
+        font-size:10px;   
+        padding:0.5rem 3rem 0 0.8rem;
+        height:1.9rem;
+        width:1.9rem;
+    }
+    
+    }
+
+    @media(min-width:393px) and (max-width:644px){
+        h1{
+            font-size:4rem;
+        }
+
+        .secHeading{
+            font-size:2.5rem;
+            padding:0 3rem;
+        }
+
+        .text{
+            font-size:0.7em;
+            padding:0 3rem;
+            margin:2rem 0;
+        }
+    
+        section{
+            padding:2rem 0;
+        }
+
+        .bg{       
+            background-size:644px 608px;
+            height:250px;
+        }
+
+        .desc{
+            font-size:12px;   
+            padding:0.5rem 4rem 0 1.9rem;
+            height:2.1rem;
+            width:6rem;
+        }
+
+    }
+      
+        @media(min-width:644px) and (max-width:868px){
+        h1{           
+            font-size: 6rem;           
+        }
+
+        .secHeading{
+            font-size:3.5rem;
+            padding:0 5rem;
+        }
+    
+        .text{
+            font-size:0.8em;
+            padding:0 7rem;
+            margin:2.5rem 0;
+        }
+    
+    
+        .bg{
+            height:300px;
+            background-size:868px 608px
+        }
+    
+        .desc{
+            font-size:15px;   
+        }
+    } 
+
+    @media(min-width:868px) and (max-width:1200px){
+
+        h1{
+            font-size: 7rem;
+         }
+    
+        .secHeading{
+            font-size:3rem;
+            padding:0 8rem;
+        }
+    
+        .text{
+            font-size:0.9em;
+            padding:0 7rem;
+            margin:3rem 0;
+        }
+    
+    
+        .bg{
+            height:400px;
+            background-size:1200px 608px;
+
+        }
+    
+        .desc{
+            font-size:20px;   
+        }
+        
+        }
+
+
+
+
+
