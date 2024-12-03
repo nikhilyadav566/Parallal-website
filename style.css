@@ -96,9 +96,7 @@ section{
 
 @media(max-width:280px){
     h1{
-        font-size: 0.5rem;
-        letter-spacing:0px;
-        top: 10rem;
+        font-size: 2rem;
     }
 
     .secHeading{
@@ -133,13 +131,11 @@ section{
 @media (min-width:280px) and (max-width:393px){
 
     h1{
-        font-size: 0.9rem;
-        letter-spacing: 0.5px;
-        top: 9rem;
+        font-size: 2.5rem;
      }
 
     .secHeading{
-        font-size:1rem;
+        font-size:1.5rem;
         padding:0 1rem;
     }
 
@@ -170,12 +166,11 @@ section{
     @media(min-width:393px) and (max-width:644px){
        h1{
         font-size: 3rem;
-        letter-spacing: 3px;
         top: 12rem;
      }
 
         .secHeading{
-            font-size:2.5rem;
+            font-size:2rem;
             padding:0 3rem;
         }
 
