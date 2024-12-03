@@ -169,9 +169,9 @@ section{
 
     @media(min-width:393px) and (max-width:644px){
        h1{
-        font-size: 0.9rem;
-        letter-spacing: 0.5px;
-        top: 9rem;
+        font-size: 3rem;
+        letter-spacing: 3px;
+        top: 12rem;
      }
 
         .secHeading{
