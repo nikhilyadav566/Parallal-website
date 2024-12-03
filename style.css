@@ -41,11 +41,8 @@
 
 h1{
     position:absolute;
-    top:5rem;
     left:50%;
     transform:translateX(-50%);
-    font-size: 10rem;
-    letter-spacing:4px;
     color:white;
     text-shadow:0 0 10px rgba(0,0,0,0,3);
 }
@@ -133,7 +130,7 @@ section{
 @media (min-width:280px) and (max-width:393px){
 
     h1{
-        font-size: 0.1rem;
+        font-size: 0.9em;
         letter-spacing: 0px;
         top: 9rem;
      }
@@ -168,9 +165,11 @@ section{
     }
 
     @media(min-width:393px) and (max-width:644px){
-        h1{
-            font-size:4rem;
-        }
+       h1{
+        font-size: 10rem;
+        letter-spacing: 4px;
+        top: 5rem;
+     }
 
         .secHeading{
             font-size:2.5rem;
@@ -202,9 +201,11 @@ section{
     }
       
         @media(min-width:644px) and (max-width:868px){
-        h1{           
-            font-size: 6rem;           
-        }
+       h1{
+        font-size: 10rem;
+        letter-spacing: 4px;
+        top: 10rem;
+     }
 
         .secHeading{
             font-size:3.5rem;
@@ -230,10 +231,11 @@ section{
 
     @media(min-width:868px) and (max-width:1200px){
 
-        h1{
-            font-size: 7rem;
-         }
-    
+       h1{
+        font-size: 10rem;
+        letter-spacing: 4px;
+        top: 5rem;
+     }
         .secHeading{
             font-size:3rem;
             padding:0 8rem;
